@@ -17,3 +17,6 @@ def desencriptar_datos(datos_encriptados, clave):
     """
     cipher_suite = Fernet(clave)
     return cipher_suite.decrypt(datos_encriptados).decode()
+# Ejemplo de uso
+clave = generar_clave()
+print("Clave de encriptación generada:", clave.decode())
