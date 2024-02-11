@@ -20,3 +20,5 @@ def desencriptar_datos(datos_encriptados, clave):
 # Ejemplo de uso
 clave = generar_clave()
 print("Clave de encriptación generada:", clave.decode())
+datos_originales = "Estos son los datos que quiero encriptar."
+datos_encriptados = encriptar_datos(datos_originales, clave)
