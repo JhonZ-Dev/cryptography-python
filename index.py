@@ -9,3 +9,5 @@ def encriptar_datos(datos, clave):
     """
     Encripta los datos utilizando una clave proporcionada.
     """
+    cipher_suite = Fernet(clave)
+    return cipher_suite.encrypt(datos.encode())
