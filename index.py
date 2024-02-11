@@ -22,3 +22,4 @@ clave = generar_clave()
 print("Clave de encriptación generada:", clave.decode())
 datos_originales = "Estos son los datos que quiero encriptar."
 datos_encriptados = encriptar_datos(datos_originales, clave)
+print("Datos encriptados:", datos_encriptados)
